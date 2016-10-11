@@ -1,0 +1,141 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "b1c299d31c4c0ddce8fe84ddd9467b7a",
+    "content-hash": "2b96eff89d1d4111e0984f973a461bcd",
+    "packages": [
+        {
+            "name": "marc-mabe/php-enum",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marc-mabe/php-enum.git",
+                "reference": "071b26a2fd0f8fc57ab89fa7d399792a73e37f6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marc-mabe/php-enum/zipball/071b26a2fd0f8fc57ab89fa7d399792a73e37f6d",
+                "reference": "071b26a2fd0f8fc57ab89fa7d399792a73e37f6d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-reflection": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=3.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "MabeEnum\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Marc Bennewitz",
+                    "email": "php-enum@marc-bennewitz.de",
+                    "homepage": "http://www.marc-bennewitz.de/",
+                    "role": "Lead"
+                }
+            ],
+            "description": "Simple and fast implementation of enumerations with native PHP 5.3 and upper",
+            "homepage": "https://github.com/marc-mabe/php-enum",
+            "keywords": [
+                "enum",
+                "enum-map",
+                "enum-set",
+                "enumeration",
+                "enummap",
+                "enumset",
+                "type-hint",
+                "typehint"
+            ],
+            "time": "2014-05-22 16:22:21"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "phalcon/devtools",
+            "version": "v3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phalcon/phalcon-devtools.git",
+                "reference": "58e6b6582b8ae351e57078efe1182b85e99f0802"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phalcon/phalcon-devtools/zipball/58e6b6582b8ae351e57078efe1182b85e99f0802",
+                "reference": "58e6b6582b8ae351e57078efe1182b85e99f0802",
+                "shasum": ""
+            },
+            "require": {
+                "ext-phalcon": "^3.0",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "kherge/box": "^2.7"
+            },
+            "bin": [
+                "phalcon.php"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Phalcon\\": "scripts/Phalcon/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Phalcon Team",
+                    "email": "team@phalconphp.com",
+                    "homepage": "https://phalconphp.com/en/team"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/phalcon/phalcon-devtools/graphs/contributors"
+                }
+            ],
+            "description": "This tools provide you useful scripts to generate code helping to develop faster and easy applications that use with Phalcon framework.",
+            "homepage": "https://phalconphp.com",
+            "keywords": [
+                "Devtools",
+                "framework",
+                "phalcon",
+                "phar",
+                "webtools"
+            ],
+            "time": "2016-08-24 10:16:58"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-yaml": "*"
+    },
+    "platform-dev": []
+}

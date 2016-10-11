@@ -19,5 +19,8 @@
   "require":     {
     "ext-yaml": "*",
     "marc-mabe/php-enum": "v1.2.0"
+  },
+  "require-dev": {
+    "phalcon/devtools": "^3.0"
   }
 }
