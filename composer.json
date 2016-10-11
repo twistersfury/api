@@ -1,5 +1,5 @@
 {
-  "name":        "phrest/api",
+  "name":        "twistersfury/phrest-api",
   "type":        "library",
   "description": "REST API Package for Phalcon PHP",
   "keywords":    ["phalcon", "rest", "api", "api first", "apigee"],
